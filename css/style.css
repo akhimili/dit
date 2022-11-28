@@ -1,0 +1,78 @@
+/* Universal Selector */
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+/* Name Selector */
+body{
+background-color: rgb(87, 7, 7);
+}
+/* id Selector */
+#Admin-box{
+background-color: brown;
+color: black;
+width: 50%;
+text-align: center;
+margin:10%  auto 0px;
+padding: 10px;
+border-radius: 10px;
+box-shadow: 0px 0px 10px blue;
+
+}
+/* Decedent Selector */
+#Admin-box h1{
+font-size: 35px;
+text-transform: uppercase;
+font-family: Arial, Helvetica, sans-serif;
+}
+/* Name Selector */
+form{
+margin: 50px 0px;
+}
+/* Grouping Selector */
+label,input{
+display: block;
+}
+label{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family:Arial, Helvetica, sans-serif 
+}
+input{
+    width: 50%;
+    margin:5px auto;
+    padding: 10px;
+    background-color: transparent;
+    color:black; 
+    border:1px solid black; 
+
+}
+input::placeholder {
+    color: black;
+}
+#btn{
+    font-size: 15px;
+    margin-top: 10px;
+    transition: ease-in-out 0.05s;
+}
+#btn:hover{
+    background-color: chocolate;
+    color: black;
+}
+/* class selector */
+.p-text{
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom: 10px;
+}
+/* Decedent Selector */
+.p-text a{
+text-decoration: none;
+color: aqua;
+text-transform:uppercase;
+
+}
+
